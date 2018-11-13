@@ -54,14 +54,14 @@ function showMyProjects() {
                 <h2>myQR</h2>
                 <img class="project-img" src="public/img/myQR.png" />
                 <p class="project-tech"><i class="fab fa-node-js"></i><i class="fab fa-js"></i></p>
-                <p class="project-desc">A simple way to track and log weightlifing workouts</p>
+                <p class="project-desc">A simple, minimalistic QR Code manager</p>
                 <p class="project-links"><a href="https://myqr.herokuapp.com/" target="_blank">Wesbite</a><a href="https://github.com/drewlara/myQR" target="_blank">Repo</a></p>
             </div>
             <div class="project">
                 <h2>Find My Rep</h2>
                 <img class="project-img" src="public/img/FindMyRep.png" />
                 <p class="project-tech"><i class="fab fa-js"></i><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i></p>
-                <p class="project-desc">A simple way to track and log weightlifing workouts</p>
+                <p class="project-desc">A simple way to find information on your elected representatives</p>
                 <p class="project-links"><a href="https://drewlara.github.io/Find-My-Representative/" target="_blank">Wesbite</a><a href="https://github.com/drewlara/Find-My-Representative" target="_blank">Repo</a></p>
             </div>
         </div>`
