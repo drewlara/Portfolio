@@ -1,0 +1,281 @@
+html {
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    color: #3A4856;
+}
+
+.full-sections {
+    display: none;
+}
+
+.full-links {
+    display: none;
+}
+
+.top-container {
+    background-color: #3A4856;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.headshot {
+    width: 40%;
+    border-radius: 360px;
+    border: 3px solid white;
+}
+
+.top-container h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.top-container p {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sections {
+    padding: 10px;
+    background: #3A4856;
+    color: white;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.section-item {
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+.sections a {
+    color: white;
+    text-decoration: none;
+}
+
+.sections a:visited {
+    color: white;
+}
+
+.underline {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.underline:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #fff;
+    transform: scaleX(0);
+    transition: transform 350ms ease-in-out;
+    transform-origin: 100% 50%
+}
+
+.underline:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0 50%;
+}
+
+.content {
+    padding: 10px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: inherit;
+    padding: 10px;
+
+}
+
+.about {
+    padding: 20px;
+    font-size: 1.15em
+}
+
+.about a {
+    border: 1px solid #3A4856;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: #3A4856;
+}
+
+.about a:hover {
+    background-color: #3A4856;
+    color: white;
+}
+
+.about a:visited {
+    color: #3A4856;
+}
+
+.my-projects {
+    color: #3A4856;
+}
+
+.project {
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-img {
+    width: 90%;
+}
+
+.project-links a {
+    border: 1px solid #3A4856;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: #3A4856;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.project-links a:visited {
+    color: #3A4856;
+}
+
+.project-tech i {
+    font-size: 1.15em;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer {
+    text-align: center;
+    color: #3A4856;
+}
+
+.footer i {
+    font-size: 2em;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer a {
+    color: #3A4856;
+}
+
+.footer a:visited {
+    color: #3A4856;
+}
+
+@media(min-width: 1024px){
+    body {
+        color: #3A4856;
+    }
+    
+    .full-sections {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .section-item {
+        margin-top: 20px;
+    }
+    
+    .full-sections a {
+        color: white;
+    }
+    
+    .full-sections a:visited {
+        color: white;
+    }
+    
+    .full-links {
+        display: block;
+    }
+    
+    .top-container {
+        width: 300px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        box-sizing: border-box;
+    }
+    
+    .headshot {
+        width: 50%;
+    }
+    
+    .wrapper {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .content {
+        position: relative;
+        margin-left: 300px;
+        box-sizing: border-box;
+        height: 100vh;
+        padding: 20px
+    }
+    
+    .about {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        box-sizing: border-box;
+    }
+    
+    .project h2 {
+        font-size: 1.5em;
+    }
+    
+    .project-tech {
+        font-size: 1.5em;
+    }
+    
+    .project-desc {
+        font-size: 1.25em
+    }
+    
+    .full-links {
+        margin-top: 20px;
+    }
+    
+    .full-links a {
+        color: white;
+        font-size: 1.5em;
+        margin-right: 10px;
+        margin-left: 10px;
+        transition: 400ms;
+    }
+    
+    .full-links a:visited {
+        color: white;
+    }
+    
+    .full-links a:hover {
+        font-size: 2.5em;
+    }
+    
+    .sections {
+        display: none;
+    }
+    
+    .footer {
+        display: none;
+    }
+}
