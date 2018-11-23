@@ -47,21 +47,21 @@ function showMyProjects() {
                 <h2>GymNotes</h2>
                 <img class="project-img" src="public/img/GymNotes.png" />
                 <p class="project-tech"><i class="fab fa-react"></i><i class="fab fa-node-js"></i><i class="fab fa-js"></i></p>
-                <p class="project-desc">A simple way to track and log weightlifing workouts</p>
+                <p class="project-desc">GymNotes is a simple weightlifting workout logger. Users can categorize their workouts by name, date, type, weight, and reps. Users can also view breakdowns of all workouts by type and track single workouts by name over periods of time. </p>
                 <p class="project-links"><a href="https://gymnotes.herokuapp.com/" target="_blank">Wesbite</a><a href="https://github.com/drewlara/GymNotes" target="_blank">Repo</a></p>
             </div>
             <div class="project">
                 <h2>myQR</h2>
                 <img class="project-img" src="public/img/myQR.png" />
                 <p class="project-tech"><i class="fab fa-node-js"></i><i class="fab fa-js"></i></p>
-                <p class="project-desc">A simple, minimalistic QR Code manager</p>
+                <p class="project-desc">myQR is a simple, minimalistic, QR Code manager. Users can create, update, delete, favorite, and share any QR codes they create via this app. Users can also upload any images of existing QR codes they have.</p>
                 <p class="project-links"><a href="https://myqr.herokuapp.com/" target="_blank">Wesbite</a><a href="https://github.com/drewlara/myQR" target="_blank">Repo</a></p>
             </div>
             <div class="project">
                 <h2>Find My Rep</h2>
                 <img class="project-img" src="public/img/FindMyRep.png" />
                 <p class="project-tech"><i class="fab fa-js"></i><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i></p>
-                <p class="project-desc">A simple way to find information on your elected representatives</p>
+                <p class="project-desc">Find My Representative provides users with a simple way to find information on elected officials pertaining to a valid United States address. Additionally, users can also view links, contact information, and related articles on any of their elected officials.</p>
                 <p class="project-links"><a href="https://drewlara.github.io/Find-My-Representative/" target="_blank">Wesbite</a><a href="https://github.com/drewlara/Find-My-Representative" target="_blank">Repo</a></p>
             </div>
         </div>`
